@@ -1,4 +1,10 @@
 /**/
+/*for the main height*/
+main{
+  min-height: 600px;
+
+}
+}
 .index-top{
   padding: 40px 0px;
   background: url("../images/main1.jpg");
@@ -22,7 +28,7 @@
   background:lightgrey;
   padding:5px;
 }
-.table-head{
+.bg-y{
   background: rgb(228, 175, 11)
 }
 
@@ -41,3 +47,14 @@
   color:#FDCD2B;
 
 }
+
+
+/*faq page*/
+.mg-auto{
+  margin: 10px auto;
+}
+.side-bar{
+
+}
+
+/*contact us page*/
