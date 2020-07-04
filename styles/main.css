@@ -2,9 +2,19 @@
 /*for the main height*/
 main{
   min-height: 600px;
+  margin-top:40px;
+}
+/*for the header nav*/
+@media (min-width: 990px) {
+  #logo{
+    color:pink;
+    margin-left: 10%!important;
+  }
+  #navbarSupportedContent{
+    margin-left: -20%!important;
+  }
 
-}
-}
+ }
 .index-top{
   padding: 40px 0px;
   background: url("../images/main1.jpg");
@@ -28,9 +38,7 @@ main{
   background:lightgrey;
   padding:5px;
 }
-.bg-y{
-  background: rgb(228, 175, 11)
-}
+
 
 .icons{
   width:100%;
@@ -57,4 +65,44 @@ main{
 
 }
 
-/*contact us page*/
+/*footer*/
+footer{
+  font-size: 12px!important;
+  padding: 40px 10px;
+}
+footer a, footer p,footer span, footer div{
+  color: #aaa;
+}
+.va-m{
+  vertical-align: middle!important;
+}
+.contact{
+
+}
+
+/*utilities*/
+.tc-y{
+  color:#ccc!important;
+}
+.c-y{
+  color:#FFBE00;
+}
+.bg-y{
+  background: rgb(228, 175, 11);
+}
+.bg-g{
+  background: #ccc;
+}
+.bg-lg{
+  background: #eee;
+}
+.bg-blk-o{
+  background: rgba(52, 58, 64,.9);
+}
+.bg-ly{
+  background: rgba(228, 175, 11,.8);
+}
+.max-width-1{
+  height: 10em;
+  width: 100%;
+}

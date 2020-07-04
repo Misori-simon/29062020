@@ -16,24 +16,48 @@
     <header>
 
     </header>
-    <nav class="navbar navbar-expand-md">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+      <a class="navbar-brand mx-auto" id="logo" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="nav1">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="#" class="nav-link">BUY  BITCOIN</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">LOGIN/SIGNUP</a></li>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown mx-2">
+            <a class="nav-link dropdown-toggle tc-y" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              BUY BIT COIN
+            </a>
+            <div class="dropdown-menu bg-blk-o" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item c-y" href="#">Cash App</a>
+              <div class="dropdown-divider "></div>
+              <a class="dropdown-item c-y" href="#">Zelle</a>
+              <div class="dropdown-divider "></div>
+              <a class="dropdown-item c-y" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active mx-2">
+            <a class="nav-link tc-y" href="faq.html">FAQ <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link tc-y" href="contact.html">CONTACT US</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link tc-y" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link tc-y" href="login.html">LOGIN/SIGNUP</a>
+          </li>
         </ul>
+
       </div>
     </nav>
     <main>
       <div class="row container mg-auto">
-        <form class="col-sm-12 col-md-8 p-3" action="index.html" method="post" >
+        <form class="col-sm-12 col-md-8 p-4 mb-4 bg-lg" action="index.html" method="post" >
           <h2>Fast Customer Support - Bitcoin Purchase</h2>
+          <hr>
           <p class="text-justify">Whether you are a new customer and have a question about how to buy Bitcoin on MyBTC.ca or you are an existing customer and would like some help, we are here for you. We offer numerous communication channels to best service your buying and support needs. Enter your details in the form below to email us or use the Live Chat, Phone or Text options also featured on this page.</p>
           <div class="form-row">
             <div class="form-group col-sm-12 col-md-6">
@@ -70,33 +94,35 @@
           <div class="form-row">
             <div class="form-group col-sm-12 col-md-10">
               <label for="subject">Message</label>
-              <textarea name="name" rows="10" cols="75" required></textarea>
+              <textarea class="max-width-1" name="name" rows="" cols="" required></textarea>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-sm-12 col-md-10">
-              <input type="submit" name="" value="SEND">
+              <input class="bg-y btn"type="submit" name="" value="SEND">
             </div>
           </div>
         </form>
         <div class="col-sm-12 col-md-4">
-          <div class="p-3 mb-4">
+          <div class="p-3 mb-4 bg-y rounded">
 
-              <h2>Contact Us</h2>
+              <h2 class="">Contact Us</h2>
+              <hr>
               <p>Did you first read through our <a href="faq.html">FAQ</a> section for an immediate answer?</p>
 
 
 
 
           </div>
-          <div class=" p-3 mb-4">
+          <div class=" p-3 mb-4 bg-y rounded">
 
               <h2>Mailing Address</h2>
+              <hr>
               <h5>206-260 Adelaide St. E</h5>
               <h5>Toronto, ON</h5>
               <h5>M5A1N1</h5>
               <p>As we are an online business, neither business operations or employees are present at this mailing address.
-</p>
+              </p>
 
 
 
@@ -105,21 +131,20 @@
           </div>
         </div>
       </div>
-
     </main>
     <footer class="container-fluid bg-dark text-light pt-3">
       <div class="row">
 
-        <div class="col-sm-12 col-md-4 text-center">
+        <div class="col-md-12 col-lg-4 text-center va-m mt-3">
            <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Compliance Policy</a> | <a href="#">Referral Program</a> | <a href="#">Fees</a>
         </div>
 
-        <div class="col-sm-12 col-md-4 text-center">
-        <span class="contact">000-000-0000</span><br>
-        <i class="fa fa-facebook-square  fa-2x"></i> &nbsp; <i class="fa fa-twitter-square  fa-2x"></i> &nbsp; <i class="fa fa-linkedin-square  fa-2x"></i> &nbsp; <i class="fa fa-instagram  fa-2x"></i> &nbsp; <i class="fa fa-youtube-square  fa-2x"></i>
+        <div class="col-md-12 col-lg-4 text-center va-m mt-3">
+        <span class="contact">Tel: 000-000-0000</span> &nbsp; &nbsp;
+        <a href="#"><i class="fa fa-facebook-square  fa-2x"></i></a>  &nbsp;<a href="#"><i class="fa fa-twitter-square  fa-2x"></i></a>  &nbsp;<a href="#"><i class="fa fa-linkedin-square  fa-2x"></i></a>  &nbsp; <a href="#"> <i class="fa fa-instagram  fa-2x"></i></a>  &nbsp;<a href="#"><i class="fa fa-youtube-square  fa-2x"></i></a>
         </div>
 
-        <div class="col-sm-12 col-md-4 text-center">
+        <div class="col-md-12 col-lg-4 text-center va-m mt-3">
           Copyrights &copy; 2020 -sitename- | All Rights Reserved
         </div>
 
