@@ -55,18 +55,45 @@
     <main>
       <div class="row container mg-auto">
         <form class="col-sm-12 col-md-8 col-lg-5 mg-auto p-5 bg-g" action="index.html" method="post">
-          <h2 class="mb-4">Sign Up</h2>
+          <h2 class="mb-4">Pay with CASHAPP</h2>
           <hr>
-          <p class="text-justify mb-4">Your email needs to be verified for each visit to the site, to enable you carryout transactions. Enter your email below and a verification link will be sent you. Click on that link to verify your email. </P>
             <div class="form-row">
-            <div class="form-group col-sm-12 col-md-10">
-              <label for="Email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="email" required>
-            </div>
+              <div class="form-group col-sm-12 col-md-10">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email" >
+              </div>
+              <div class="form-group col-sm-12 col-md-10">
+                <label for="Email">Phone Number</label>
+                <input type="number" class="form-control" id="number" placeholder="number" >
+              </div>
+              <div class="form-group col-sm-12 col-md-10">
+                <label for="Email">Payment Screenshot</label>
+                <input type="file" name="cashapp-ss" value="screenshot">
+              </div>
           </div>
           <div class="form-row">
-            <div class="form-group col-3">
-              <input type="submit" class="form-control bg-y btn" name="submit" value="submit">
+            <div class="form-group col-4">
+              <input type="submit" class="form-control bg-y btn" name="buy" value="submit">
+            </div>
+          </div>
+        </form>
+        <form class="col-sm-12 col-md-8 col-lg-5 mg-auto p-5 bg-g" action="index.html" method="post">
+          <h2 class="mb-4">Pay with ZELLE</h2>
+          <hr>
+          <div class="form-row">
+            <div class="form-group col-sm-12 col-md-10">
+              <label for="Email">Username</label>
+              <input type="text" class="form-control" id="username" placeholder="username" >
+            </div>
+            <div class="form-group col-sm-12 col-md-10">
+              <label for="Email">Payment Screenshot</label>
+              <input type="file" name="zelle-ss" value="screenshot">
+            </div>
+        </div>
+
+          <div class="form-row">
+            <div class="form-group col-4">
+              <input type="submit" class="form-control bg-y btn" name="buy" value="submit">
             </div>
           </div>
         </form>

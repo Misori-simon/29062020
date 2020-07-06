@@ -7,13 +7,15 @@ main{
 /*for the header nav*/
 @media (min-width: 990px) {
   #logo{
-    color:pink;
     margin-left: 10%!important;
   }
   #navbarSupportedContent{
     margin-left: -20%!important;
   }
 
+ }
+ #logo{
+   color:#ccc!important;
  }
 .index-top{
   padding: 40px 0px;
@@ -22,10 +24,17 @@ main{
   background-size: contain;
 
 }
+.index-bottom{
+  margin:20px auto;
+  padding: 20px 0px;
+}
+.carousel-item img{
+  max-width: 442px;
+}
 .cloth{
-  height: 400px;
+  height: auto;
   width: 80%;
-  padding:150px 0px 0px;
+  padding:100px 0px;
   margin: 0px auto;
   background: rgba(228, 175, 11,.5);
 
@@ -36,10 +45,23 @@ main{
 }
 .generated{
   background:lightgrey;
-  padding:5px;
+  padding:2px;
+  vertical-align:middle;
 }
 
+.c-app{
+  background: url("../images/capp-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.zelle{
+  background: url("../images/zelle-trans.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 
+}
 .icons{
   width:100%;
   height: 90px;
@@ -79,7 +101,11 @@ footer a, footer p,footer span, footer div{
 .contact{
 
 }
-
+/*terms page*/
+.term-ol li{
+  margin: 4px 0px;
+  line-height: 1.8;
+}
 /*utilities*/
 .tc-y{
   color:#ccc!important;
@@ -105,4 +131,7 @@ footer a, footer p,footer span, footer div{
 .max-width-1{
   height: 10em;
   width: 100%;
+}
+.sm-txt{
+  font-size:14px;
 }
