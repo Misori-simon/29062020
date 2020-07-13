@@ -27,9 +27,9 @@
               BUY BIT COIN
             </a>
             <div class="dropdown-menu bg-blk-o" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item c-y" href="#">Cash App</a>
+              <a class="dropdown-item c-y" href="buy.html">Cash App</a>
               <div class="dropdown-divider "></div>
-              <a class="dropdown-item c-y" href="#">Zelle</a>
+              <a class="dropdown-item c-y" href="buy.html">Zelle</a>
             </div>
           </li>
           <li class="nav-item active mx-2">
@@ -54,32 +54,44 @@
 
     <main>
       <div class="row container mg-auto">
+
         <form class="col-sm-12 col-md-8 col-lg-5 mg-auto p-5 bg-g" action="index.html" method="post">
-          <h2 class="mb-2">Get Paid with CASHAPP</h2>
+          <div class="screen_shot text-center">
+            <h4>Send to Our wallet</h4>
+            <!-- the screenshot  img and bitcoin address goes here-->
+            <img src="images/main1.jpg" alt="scr-shot" max-width="192px" height="auto" class="scr-img">
+            <p id="coin-address" class="coin-address mt-3 mb-3">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
+          </div>
+          <div class="dropdown-divider bor-top"></div>
+          <p>Choose to get paid either via cashapp or zelle</p>
+          <div class="dropdown-divider bor-top"></div>
+          <h4 class="mb-2">For CASHAPP</h4>
           <hr>
             <div class="form-row">
               <div class="form-group col-sm-12 col-md-10">
                 <label for="Email">Email or Phone number </label>
                 <input type="text" class="form-control" id="cashapp-sell" placeholder="email or number" >
-              </div>
-              <div class="">
-                <h4 class="text-center m-4 p-2 bg-ly">OR</h4>
-                <h2 class="mb-2 mt-4">Get Paid with ZELLE</h2>
                 <hr>
               </div>
-
+            </div>
+              <h4 class="mb-2">For ZELLE</h4>
+              <hr>
               <div class="form-row">
                 <div class="form-group col-sm-12 col-md-10">
                   <label for="Email">Username</label>
                   <input type="text" class="form-control" id="username" placeholder="username" >
+                  <hr>
                 </div>
-
-              <div class="form-group col-sm-12 col-md-10">
-                <hr>
-                <label for="Email">Transfer Screenshot</label>
-                <input type="file" name="cashapp-ss" value="screenshot">
+                <div class="dropdown-divider bor-top"></div>
+                <div class="form-group col-sm-12 col-md-10 mb-2">
+                  <label for="Email">Amount Transfered (USD)</label>
+                  <input type="number" class="form-control" id="amount" placeholder="0.00" >
+                </div>
+                <div class="form-group col-sm-12 col-md-10 mt-4 mb-4">
+                  <label for="Email">Transfer Screenshot</label>
+                  <input type="file" name="cashapp-ss" value="screenshot">
+                </div>
               </div>
-          </div>
           <div class="form-row">
             <div class="form-group col-12">
               <input type="submit" class="form-control bg-y btn" name="buy" value="submit">

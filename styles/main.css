@@ -11,9 +11,11 @@ main{
   }
   #navbarSupportedContent{
     margin-left: -20%!important;
+
   }
 
  }
+
  #logo{
    color:#ccc!important;
  }
@@ -134,4 +136,21 @@ footer a, footer p,footer span, footer div{
 }
 .sm-txt{
   font-size:14px;
+}
+.bor-top{
+  border-top:2px solid white;
+  height: 10px;
+  width: 100%;
+}
+.scr-img{
+  max-height: 192px;
+}
+.coin-address{
+  width: auto;
+  height: 50px;
+  padding-top: 15px;
+  background: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 90%;
 }
