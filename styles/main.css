@@ -127,7 +127,7 @@ footer a, footer p,footer span, footer div{
   position: absolute;
   z-index: 25;
   top:5px;
-  left: 90%;
+  right: 5px;
 
 }
 .powered-bottom{
@@ -138,8 +138,8 @@ footer a, footer p,footer span, footer div{
   width: auto;
   position: absolute;
   z-index: 15;
-  top:95%;
-  left: 80%;
+  bottom:5px;
+  right: 5px;
 
 }
 .bold{
@@ -160,6 +160,9 @@ footer a, footer p,footer span, footer div{
 .bg-nb{
   background: #253B80;
   color: #fff;
+}
+.bg-nb:hover{
+  color: #FFBE00;
 }
 .bg-lb{
   background: #2193b0;  /* fallback for old browsers */
@@ -219,4 +222,10 @@ footer a, footer p,footer span, footer div{
 /*this is for the sell page it works with the js funtion*/
 .hide{
 display:none;
+}
+/*to pay the */
+.info{
+color:purple;
+text-align: justify;
+font-style: italic;
 }
