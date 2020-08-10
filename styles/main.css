@@ -212,12 +212,26 @@ footer a, footer p,footer span, footer div{
 }
 .coin-address{
   width: auto;
-  height: 50px;
-  padding-top: 15px;
+
+  padding: 15px 5px;
   background: white;
   border-radius: 50px;
   text-align: center;
-  font-size: 90%;
+
+
+}
+@media only screen and (max-width: 600px) {
+  .coin-address {
+    font-size: .6em;
+  }
+  h3, h2{
+    font-size:20px;
+    font-weight: bold;
+  }
+  .pay_note{
+  font-size: 12px;
+
+  }
 }
 /*this is for the sell page it works with the js funtion*/
 .hide{
@@ -228,4 +242,33 @@ display:none;
 color:purple;
 text-align: justify;
 font-style: italic;
+
+}
+.note{
+
+  color: #253B80;
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom:2px solid #253B80;
+  border-radius: 5px;
+  text-transform:lowercase;
+  margin-top: 0px;
+}
+.pay_note{
+  color: #253B80;
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom:2px solid #253B80;
+  border-radius: 5px;
+
+}
+.border-b:hover{
+    border-bottom:2px solid #000;
+
 }

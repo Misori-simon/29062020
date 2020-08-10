@@ -70,12 +70,25 @@
           <div class="screen_shot text-center">
 
             <hr>
-            <p>Scan the QR code below to tranfers coins to our wallet or copy the wallet address below</p>
+            <p class="note ">Scan the QR code below to tranfer coins to our wallet or copy the wallet address below</p>
             <!-- the screenshot  img and bitcoin address goes here-->
             <img src="images/main1.jpg" alt="scr-shot" max-width="192px" height="auto" class="scr-img" style="max-width:100%">
-            <p id="coin-address" class="coin-address mt-3 mb-3" style="font-size:100%">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
+            <p id="coin-address" class="coin-address mt-3 mb-3" >3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
           </div>
-          <div class="dropdown-divider bor-top"></div>
+          <hr>
+          <div class="form-row ">
+            <div class="form-group  col-sm-12 col-md-5 mt-0 mb-2">
+              <label for="Email" class="bold">Amount (USD)</label>
+              <input type="number" class="form-control" id="amount" placeholder="0.00" >
+            </div>
+            <div class="form-group  col-sm-12 col-md-6 mt-0 mb-2">
+              <label for="Email" class="bold">Amount BTC</label>
+              <input type="number" class="form-control" id="amount" placeholder="0.00" >
+            </div>
+
+          </div>
+
+          <hr>
           <p class="bold">Select payment method below:</p>
           <div class="form-row">
             <div class="form-group col-sm-12 col-md-6">
@@ -86,11 +99,10 @@
                 <option value="paypal">PayPal</option>
                 <option value="bank">Bank Transfer</option>
               </select>
-              <hr>
             </div>
           </div>
 
-          <div class="form-row"  id="lev2" name="lev2">
+          <div class="form-row mb-0"  id="lev2" name="lev2">
             <div class="form-group col-sm-12 col-md-6 hide" id="cashapp" name="meth">
               <label for="Email" class="bold">CashApp Details</label>
               <input type="text" class="form-control" id="CashappName" placeholder="Email or username" >
@@ -106,29 +118,19 @@
               <input type="text" class="form-control" id="paypalName" placeholder="username" >
               <hr>
             </div>
-            <div class="form-group col-sm-12 col-md-6 hide" id="bank" name="meth">
+            <div class="form-group col-sm-12 col-md-6 hide " id="bank" name="meth">
               <label for="Email" class="bold">Bank Info</label>
+                <input type="text" class="form-control mb-2" id="accountName" placeholder="Bank Name" >
               <input type="text" class="form-control mb-2" id="accountName" placeholder="Account Name" >
               <input type="text" class="form-control" id="accountNum" placeholder="Account Number" >
               <hr>
             </div>
           </div>
-          <div class="form-row ">
-            <div class="form-group  col-sm-12 col-md-5 mt-0 mb-2">
-              <label for="Email" class="bold">Amount Transfered (USD)</label>
-              <input type="number" class="form-control" id="amount" placeholder="0.00" >
-            </div>
-            <div class="form-group  col-sm-12 col-md-6 mt-0 mb-2">
-              <label for="Email" class="bold">BTC</label>
-              <input type="number" class="form-control" id="amount" placeholder="0.00" >
-            </div>
 
-          </div>
-          <div class="form-row mt-2">
+          <div class="form-row mt-0">
             <label for="Email" class="bold">Upload screenshot of transaction</label><br>
           </div>
           <div class="form-row ">
-
             <div class="form-group col-sm-12 col-md-6 mt-0 mb-2 custom-file">
               <input type="file" class="custom-file-input" id="customFile">
               <label class="custom-file-label" for="customFile">Choose file</label>
@@ -137,7 +139,7 @@
 
           <div class="form-row mt-3">
             <div class="form-group col-sm-6 col-md-2">
-              <input type="submit" class="form-control bg-y btn bold" name="buy" value="submit">
+                <input type="submit" class="form-control bg-y btn bold border-b" name="sell" value="submit">
             </div>
           </div>
           <a href="https://fastcoins.us/" class="powered-bottom"> Powered by Fastcoins.us</a>

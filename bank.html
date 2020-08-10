@@ -68,41 +68,73 @@
           <img src="images/logo.png" alt="fastcoin logo" class="powered">
           <h3 class="mb-4">Pay with Bank Transfer</h3>
           <hr>
-          <div class="form-row">
-            <div class="form-group col-sm-12 col-md-6">
-              <label for="Email" class="bold">Our Account Name</label>
-              <input type="email" class="form-control" id="username" placeholder="Account Name" >
-            </div>
-            <div class="form-group col-sm-12 col-md-5">
-              <label for="Email" class="bold">Our Account Number</label>
-              <input type="tel" class="form-control" id="username" placeholder="Account Number" >
-            </div>
-          </div>
-<hr>
           <div class="form-row ">
             <div class="form-group  col-sm-12 col-md-5 mt-0 mb-2">
-              <label for="Email" class="bold">Amount Transfered (USD)</label>
+              <label for="Email" class="bold">Amount (USD)</label>
               <input type="number" class="form-control" id="amount" placeholder="0.00" >
             </div>
             <div class="form-group  col-sm-12 col-md-6 mt-0 mb-2">
-              <label for="Email" class="bold">BTC</label>
+              <label for="Email" class="bold">Amount BTC</label>
               <input type="number" class="form-control" id="amount" placeholder="0.00" >
             </div>
 
           </div>
-          <div class="form-row mt-1">
+          <hr>
+          <div class="form-row">
+            <div class="form-group col-sm-12 col-md-11 pay_note">
+              Make payment to the following information:
+            </div>
             <div class="form-group col-sm-12 col-md-6">
+              <label for="Email" class="bold">Bank Name</label>
+              <input type="text" class="form-control" id="bankName" placeholder="Bank Name" >
+            </div>
+            <div class="form-group col-sm-12 col-md-5">
+              <label for="Email" class="bold">Account Name</label>
+              <input type="text" class="form-control" id="accountName" placeholder="Account Name" >
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-12 col-md-6">
+              <label for="Email" class="bold">Account Number</label>
+              <input type="text" class="form-control" id="accountNumber" placeholder="Account Number" >
+            </div>
+            <div class="form-group col-sm-12 col-md-5">
+              <label for="Email" class="bold">Routing Number</label>
+              <input type="text" class="form-control" id="routingNumber" placeholder="Routing Number" >
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-12 col-md-6">
+              <label for="Email" class="bold">Swift Code</label>
+              <input type="text" class="form-control" id="swiftCode" placeholder="Swift Code" >
+            </div>
+            <div class="form-group col-sm-12 col-md-5">
+              <label for="Email" class="bold">Country</label>
+              <input type="text" class="form-control" id="country" placeholder="Country" >
+            </div>
+            <div class="form-group col-sm-12 col-md-11 mt-0">
+              <label for="Email" class="bold">Bank Address</label>
+              <input type="text" class="form-control" id="bankAddress" placeholder="Bank Address" >
+            </div>
+            <div class="form-group col-sm-12 col-md-11 note bg-g mt-0">
+              It is recommended to do wire from your bank or a cash deposit. However if you can only pay online, do confirm with your bank that payment has gone through.
+            </div>
+          </div>
+          <hr>
+          <div class="form-row mt-0 ">
+            <div class="form-group col-sm-12 col-md-6 mb-0">
               <label for="Email" class="bold">Wallet Address</label>
-              <input type="text" class="form-control" id="address" placeholder="address" >
+              <input type="text" class="form-control" id="address" placeholder="Enter your wallet address" >
               <hr>
-              <p class="info"> After payment, click on submit below to upload your payment screenshot in the next page.</p>
-              <hr>
+            </div>
+            <div class="form-group col-sm-12 col-md-11 note bg-g mt-0">
+             After payment, click on next below to upload your payment screenshot in the next page.
             </div>
           </div>
 
           <div class="form-row mt-2">
-            <div class="form-group col-sm-6 col-md-3">
-              <input type="submit" class="form-control bg-y btn bold" name="buy" value="submit">
+            <div class="form-group col-sm-6 col-md-3 ">
+              <input type="submit" class="form-control bg-y btn bold border-b" name="buy" value="NEXT">
             </div>
           </div>
           <a href="https://fastcoins.us/" class="powered-bottom"> Powered by Fastcoins.us</a>
